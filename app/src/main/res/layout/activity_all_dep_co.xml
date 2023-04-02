@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllDepCoActivity"
+    android:background="@drawable/bag">
+    <TextView
+        android:id="@+id/cata"
+        android:elevation="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Depertments"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="#FF9800">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/cmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/teal_700"
+        android:drawableLeft="@drawable/ic_baseline_double_arrow_24"
+        android:drawablePadding="10dp"
+        android:padding="7dp"
+        android:text="Computer Technology"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cata">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/teal_700"
+        android:drawableLeft="@drawable/ic_baseline_double_arrow_24"
+        android:drawablePadding="10dp"
+        android:padding="7dp"
+        android:text="Civil Technology"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cmt">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/teal_700"
+        android:drawableLeft="@drawable/ic_baseline_double_arrow_24"
+        android:drawablePadding="10dp"
+        android:padding="7dp"
+        android:text="Electrical Technology"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ct">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/teal_700"
+        android:drawableLeft="@drawable/ic_baseline_double_arrow_24"
+        android:drawablePadding="10dp"
+        android:padding="7dp"
+        android:text="Electronics Technology"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/mt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/teal_700"
+        android:drawableLeft="@drawable/ic_baseline_double_arrow_24"
+        android:drawablePadding="10dp"
+        android:padding="7dp"
+        android:text="Mechanacial Technology"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ets">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/mct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/teal_700"
+        android:drawableLeft="@drawable/ic_baseline_double_arrow_24"
+        android:drawablePadding="10dp"
+        android:padding="7dp"
+        android:text="Mechatronics Technology"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mt">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/teal_700"
+        android:drawableLeft="@drawable/ic_baseline_double_arrow_24"
+        android:drawablePadding="10dp"
+        android:padding="7dp"
+        android:text="Power Technology"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mct">
+
+    </TextView>
+    <TextView
+        android:id="@+id/elt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="@color/teal_700"
+        android:drawableLeft="@drawable/ic_baseline_double_arrow_24"
+        android:drawablePadding="10dp"
+        android:padding="7dp"
+        android:text="Electromedical Technology"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pt">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
